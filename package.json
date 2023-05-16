@@ -1,5 +1,26 @@
 {
   "devDependencies": {
-    "cypress-mochawesome-reporter": "^3.2.3"
-  }
+    "cypress-mochawesome-reporter": "^3.4.0",
+    "cypress": "^9.7.0"
+  },
+  "dependencies": {
+   
+  },
+  "name": "cypress-web-and-apigraphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldimanx/cypress-web-and-apiGraphql.git"
+  },
+  "author": "aldimanx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aldimanx/cypress-web-and-apiGraphql/issues"
+  },
+  "homepage": "https://github.com/aldimanx/cypress-web-and-apiGraphql#readme",
+  "description": ""
 }
