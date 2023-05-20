@@ -4,10 +4,10 @@
   "main": "index.js",
   "scripts": {
     "cypress:open": "cypress open",
-    "cypress: runDefault": "cypress run --spec cypress/integration/pom/*.spec.js",
-    "cypress: chrome": "cypress run --browser chrome --spec cypress/integration/pom/*.spec.js",
-    "cypress:edge": "cypress run --browser edge --spec cypress/integration/pom/*.spec.js",
-    "cypress:runChrome Headless": "cypress run --headless --browser chrome --spec cypress/integration/pom/*.spec.js"
+    "cypress:runDefault": "cypress run --spec cypress/integration/pom/*.js",
+    "cypress:chrome": "cypress run --browser chrome --spec cypress/integration/pom/*.js",
+    "cypress:edge": "cypress run --browser edge --spec cypress/integration/pom/*.js",
+    "cypress:runChrome Headless": "cypress run --headless --browser chrome --spec cypress/integration/pom/*.js"
   },
   "repository": {
     "type": "git",
