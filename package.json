@@ -1,16 +1,13 @@
 {
-  "devDependencies": {
-    "cypress-mochawesome-reporter": "^3.4.0",
-    "cypress": "^9.7.0"
-  },
-  "dependencies": {
-   
-  },
   "name": "cypress-web-and-apigraphql",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "cypress:open": "cypress open",
+    "cypress: runDefault": "cypress run --spec cypress/integration/pom/*.spec.js",
+    "cypress: chrome": "cypress run --browser chrome --spec cypress/integration/pom/*.spec.js",
+    "cypress:edge": "cypress run --browser edge --spec cypress/integration/pom/*.spec.js",
+    "cypress:runChrome Headless": "cypress run --headless --browser chrome --spec cypress/integration/pom/*.spec.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +19,9 @@
     "url": "https://github.com/aldimanx/cypress-web-and-apiGraphql/issues"
   },
   "homepage": "https://github.com/aldimanx/cypress-web-and-apiGraphql#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.4.0",
+    "cypress": "^9.7.0"
+  }
 }
