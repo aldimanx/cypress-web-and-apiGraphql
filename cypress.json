@@ -1,12 +1,11 @@
 {
-    "videoRecording": false,
-    "reporter": "../node_modules/cypress-mochawesome-reporter",
-    "reporterOptions": {
-       
-        "reportDir": "cypress/report/mochawesome-report",
-        "overwrite": true,
-        "html": true,
-        "json": false,
-        "timestamp": "mmddyyyy_HHMMss"
-     }
+  "video": false,
+  "reporter": "../node_modules/cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/report/mochawesome-report",
+    "overwrite": true,
+    "html": true,
+    "json": false,
+    "timestamp": "mmddyyyy_HHMMss"
   }
+}
