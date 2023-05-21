@@ -10,6 +10,7 @@ let nohp = rand.makeNumber(8);
 let name = rand.makeName();
 let location = rand.getRandomLocation("odd");
 let number = rand.makeNumber(1);
+
 describe("create new registration", () => {
   beforeEach(() => {
     cy.visit("https://portal.youtap.id/landing-page");
